@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-@import "_colors.css";
-@import "_helpers.css";
+@import "colors.css";
+@import "helpers.css";
 
 * {
     margin: 0;
