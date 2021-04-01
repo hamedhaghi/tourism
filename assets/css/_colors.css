@@ -1,0 +1,16 @@
+:root {
+    --bg-blue : #0aa1d3;
+    --body-bg-color : #fff;
+    --body-color : #333333;
+    --navbar-bg-color : #fff;
+    --nav-link-color : #333333;
+    --nav-link-hover-color : #0aa1d3;
+    --nav-link-hover-border-bottom-color : #d70d53;
+    --footer-bg-color : #262626;
+    --btn-primary-color: #fff;
+    --btn-primary-bg-color: #12accb;
+    --btn-secondary-color: #fff;
+    --btn-secondary-bg-color:  #d70d53;
+    --card-boxshadow-color : #eeeeee;
+    --card-border-color : #eeeeee;
+}
