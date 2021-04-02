@@ -33,20 +33,21 @@
             </li>
         </ul>
     </nav>
-    <div class="banner container">
-        <div class="text-center">
-            <h1 class="mt-4">The Tourism</h1>
-            <h2>Exploring and Touring Services</h2>
-            <a class="btn btn-primary d-inline-block p-1 mt-2" href="#join">Join us</a>
-        </div>
-        <div>
-            <img src="./assets/img/sample1.jpg" alt="people">
-        </div>
-    </div>
 </header>
 <main>
-    <div class="container">
-        <h1 class="text-center mb-3 mt-4">Places To Explore</h1>
+    <div class="container mb-4">
+        <h1 class="text-center mb-1 mt-4">Destinations</h1>
+        <span class="text-center d-block mb-3">Look for places to visit , so here you are!</span>
+        <div class="text-center mb-3">
+            <form>
+                <div>
+                    <label for="search">Search :</label>
+                    <input type="search" id="search" required autocomplete="off" class="form-control"
+                           placeholder="Name of places ...">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </form>
+        </div>
         <div class="gallery">
             <div class="card">
                 <div class="card-body">
@@ -91,15 +92,22 @@
                 </div>
             </div>
         </div>
-        <h1 class="text-center mb-3 mt-4">Join us</h1>
-    </div>
-    <div id="join" class="bg-blue text-center pt-5 pb-5">
-        <form class="join">
-            <div>
-                <input type="email" required autocomplete="off" class="form-control" placeholder="Your Email Address">
-                <button type="submit" class="btn btn-secondary">Join</button>
-            </div>
-        </form>
+        <div class="pagination text-center mt-3">
+            <ul>
+                <li>
+                    <a href="#"><</a>
+                </li>
+                <li>
+                    <a href="#" class="active">1</a>
+                </li>
+                <li>
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">></a>
+                </li>
+            </ul>
+        </div>
     </div>
 </main>
 <footer class="pb-5">

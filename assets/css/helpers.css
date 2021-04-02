@@ -48,6 +48,11 @@
     text-align: center !important;
 }
 
+.text-justify {
+    text-align: justify !important;
+}
+
+
 .btn {
     text-decoration: none;
     padding: 10px;
@@ -180,6 +185,14 @@
     width: 50% !important;
 }
 
+.w-75 {
+    width: 75% !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
 
 .flex-1 {
     flex-grow: 1 !important;
@@ -195,4 +208,17 @@
 
 .text-white {
     color: #ffffff !important;
+}
+
+.mx-auto {
+    margin-right:auto !important;
+    margin-left: auto !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.line-height-1 {
+    line-height: 25px;
 }

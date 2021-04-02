@@ -109,6 +109,7 @@ main {
     flex: 0 0 300px;
     margin: 10px;
     transition: .8s;
+    border-radius: 5px;
 }
 
 .card:hover {
@@ -164,6 +165,31 @@ footer ul li a {
     border: solid 1px #eee;
     border-radius: 5px;
     outline: none;
+}
+
+
+.pagination ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+.pagination ul li {
+    border: solid 1px #ccc;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination ul li a {
+   padding: 10px;
+   text-decoration: none;
+   color: #333;
+   display: block;
+}
+
+.pagination ul li a.active {
+    background-color: #0aa1d3;
 }
 
 @media only screen and (max-width: 650px) {
