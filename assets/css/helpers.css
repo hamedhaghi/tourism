@@ -225,6 +225,18 @@
     flex-grow: 2 !important;
 }
 
+.flex-3 {
+    flex-grow: 3 !important;
+}
+
+.flex-4 {
+    flex-grow: 4 !important;
+}
+
+.flex-5 {
+    flex-grow: 5 !important;
+}
+
 .border {
     border:solid 1px #eee;
 }
@@ -247,6 +259,14 @@
 }
 
 .d-flex {
-    display: flex;
+    display: flex !important;
+}
+
+.list-unstyled {
+    list-style: none !important;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
 }
 
