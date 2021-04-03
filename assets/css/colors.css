@@ -13,4 +13,10 @@
     --btn-secondary-bg-color:  #d70d53;
     --card-boxshadow-color : #eeeeee;
     --card-border-color : #eeeeee;
+    --footer-a-color: #ffffff;
+    --form-control-border-color: #eee;
+    --pagination-li-border-color: #ccc;
+    --pagination-a-color: #333;
+    --pagination-active-bg-color: #0aa1d3;
+    --pagination-active-color : #fff;
 }

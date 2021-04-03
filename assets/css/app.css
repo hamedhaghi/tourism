@@ -156,15 +156,16 @@ footer h5 {
 
 footer ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--footer-a-color);
 
 }
 
 .form-control {
     padding: 10px;
-    border: solid 1px #eee;
+    border: solid 1px var(--form-control-border-color);
     border-radius: 5px;
     outline: none;
+    max-width: 100%;
 }
 
 
@@ -176,7 +177,7 @@ footer ul li a {
 }
 
 .pagination ul li {
-    border: solid 1px #ccc;
+    border: solid 1px var(--pagination-li-border-color);
     padding: 0;
     margin: 0;
 }
@@ -184,12 +185,35 @@ footer ul li a {
 .pagination ul li a {
    padding: 10px;
    text-decoration: none;
-   color: #333;
+   color: var(--pagination-a-color);
    display: block;
 }
 
 .pagination ul li a.active {
-    background-color: #0aa1d3;
+    background-color: var(--pagination-active-bg-color);
+    color: var(--pagination-active-color);
+}
+
+.contact {
+    border: solid 1px #eee;
+    box-shadow: 0 0 15px #ddd;
+    padding: 25px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.contact > div {
+    flex: 1;
+}
+
+.contact textarea {
+    resize: vertical;
+    min-height: 200px;
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 650px) {
@@ -230,6 +254,12 @@ footer ul li a {
 
     footer {
         flex-direction: column;
+    }
+
+
+    .contact {
+       flex-direction: column;
+        text-align: center;
     }
 
 }
