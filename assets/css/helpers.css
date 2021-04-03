@@ -270,3 +270,7 @@
     text-decoration: none !important;
 }
 
+.text-grey {
+    color: var(--text-grey-color);
+}
+
